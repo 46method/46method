@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="4:6 method by Tetsu Kasuya">
+    <meta name="author" content="46method">
+    <title>4:6 Method by Tetsu Kasuya - Anyone can make delicious coffee</title>
+
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      .bg-pour1 {
+	      background-color: #576272!important;
+      }
+      .bg-pour2 {
+	      background-color: #71839C!important;
+      }
+      .bg-pour3 {
+	      background-color: #899DB7!important;
+      }
+      .bg-pour4 {
+	      background-color: #A5B2C9!important;
+      }
+      .bg-pour5 {
+	      background-color: #C3CBD4!important;
+      }
+      .bg-pour6 {
+	      background-color: #DBE3ED!important;
+      }
+      .bg-label1 {
+	      background-color:#6c757d!important;
+      }
+      .bg-label2 {
+	      background-color:#929496!important;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+  <div class="py-5 text-center">
+    <h2><span style="border: 3px solid black;padding: 5px;">4:6 Method</span></h2><br>
+    <p class="lead"><a style="text-decoration: underline;color:#212529;" href="https://www.youtube.com/watch?v=wmCW8xSWGZY" target="_blank">A Coffee Brewing Theory</a><br><small>(Invented by Tetsu Kasuya)</small></p>
+    <p><b>Adjust the taste by dividing the water into a 4:6 ratio</b><br>
+	    1. The first 40% adjusts the balance of sweetness and acidity<br>
+	    2. The remaining 60% adjusts the strength
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 order-md-1 mb-4">
+      <h4 class="d-flex justify-content-between align-items-center mb-3">Settings</h4>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Ground coffee</h6>
+			<select class="ground-coffee form-control form-control-sm">
+			  <option value="10">10g</option>
+			  <option value="15">15g</option>
+			  <option value="20" selected>20g</option>
+			  <option value="25">25g</option>
+			  <option value="30">30g</option>
+			  <option value="35">35g</option>
+			  <option value="40">40g</option>
+			  <option value="45">45g</option>
+			</select>
+          </div>
+          <span class="text-muted ground-coffee-text">15g</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">A pour of water</h6>
+          </div>
+          <span class="text-muted pour-of-water">45ml</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Total water</h6>
+          </div>
+          <span class="text-muted total-water">225ml</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Pouring time</h6>
+          </div>
+          <span class="text-muted">45sec</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Balance</h6>
+            <small class="text-muted">of sweetness & acidity</small>
+            <select class="balance form-control form-control-sm">
+			  <option value="10">10ml</option>
+			  <option value="15" selected>15ml</option>
+			  <option value="20">20ml</option>
+			  <option value="25">25ml</option>
+			  <option value="30">30ml</option>
+			  <option value="35">35ml</option>
+			  <option value="40">40ml</option>
+			  <option value="45">45ml</option>
+			</select>
+          </div>
+          <span class="text-muted balance-text">15ml</span>
+        </li>        
+      </ul>
+    </div>
+    
+    <div class="col-md-8 order-md-2">
+      <h4 class="mb-3">Combination recipes</h4>
+	  	
+	  	<!-- Labels -->
+ 		<div class="progress" style="height: 15px;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">Sweetness & Acidity</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Strength</div>
+      	</div>
+      	
+      	<!-- Basic | Basic -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">Basic</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Basic</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 bb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour2 bb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour3 bb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour4 bb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour5 bb" role="progressbar" style="width: 20%;">45ml</div>
+		  
+		</div>
+		
+		<!-- Basic | Higher -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">Basic</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Higher</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 bhb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour2 bhb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour3 bhs" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour4 bhs" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour5 bhs" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour6 bhs" role="progressbar" style="width: 15%;">45ml</div>
+		  
+		</div>
+		
+		<!-- Basic | Lower -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">Basic</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Lower</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 blb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour2 blb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour3 bls" role="progressbar" style="width: 30%;">45ml</div>
+		  <div class="progress-bar bg-pour4 bls" role="progressbar" style="width: 30%;">45ml</div>
+		  
+		</div>
+		
+		<hr class="mb-8">
+		
+		<!-- More sweetness | Basic -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">More sweetness</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Basic</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 msb1" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour2 msb2" role="progressbar" style="width: 25%;">45ml</div>
+		  <div class="progress-bar bg-pour3 msb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour4 msb" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour5 msb" role="progressbar" style="width: 20%;">45ml</div>
+		  
+		</div>
+		
+		<!-- More sweetness  | Higher -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">More sweetness</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Higher</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 msh1" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour2 msh2" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour3 msh" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour4 msh" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour5 msh" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour6 msh" role="progressbar" style="width: 15%;">45ml</div>
+		  
+		</div>
+		
+		<!-- More sweetness | Lower -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">More sweetness</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Lower</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 msl1" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour2 msl2" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour3 msl" role="progressbar" style="width: 30%;">45ml</div>
+		  <div class="progress-bar bg-pour4 msl" role="progressbar" style="width: 30%;">45ml</div>
+		  
+		</div>
+		
+		<hr class="mb-8">
+		
+		<!-- More acidity | Basic -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">More acidity</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Basic</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 mab1" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour2 mab2" role="progressbar" style="width: 25%;">45ml</div>
+		  <div class="progress-bar bg-pour3 mab" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour4 mab" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour5 mab" role="progressbar" style="width: 20%;">45ml</div>
+		  
+		</div>
+		
+		<!-- More acidity  | Higher -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">More acidity</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Higher</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 mah1" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour2 mah2" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour3 mah" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour4 mah" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour5 mah" role="progressbar" style="width: 15%;">45ml</div>
+		  <div class="progress-bar bg-pour6 mah" role="progressbar" style="width: 15%;">45ml</div>
+		  
+		</div>
+		
+		<!-- More acidity | Lower -->
+      	<div class="progress" style="height: 15px;margin-top: 1rem;">
+	      	<div class="progress-bar bg-label1" role="progressbar" style="width: 40%;">More acidity</div>
+	      	<div class="progress-bar bg-label2" role="progressbar" style="width: 60%;">Lower</div>
+      	</div>
+		<div class="progress" style="height: 30px;margin-top: 1px;">
+			
+		  <div class="progress-bar bg-pour1 mal1" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour2 mal2" role="progressbar" style="width: 20%;">45ml</div>
+		  <div class="progress-bar bg-pour3 mal" role="progressbar" style="width: 30%;">45ml</div>
+		  <div class="progress-bar bg-pour4 mal" role="progressbar" style="width: 30%;">45ml</div>
+		  
+		</div>
+
+    </div>
+    
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">© 2019</p>
+  </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+	$( document ).ready(function() {
+				
+	    $( ".ground-coffee" ).change(function() {
+		    
+		    // ground coffee text
+		    $('.ground-coffee-text').html($(this).val() + 'g');
+		    
+		    // a pour of water
+			$('.pour-of-water').html($(this).val()*3 + 'ml');
+			
+			// total water
+			$('.total-water').html(($(this).val()*3)*5 + 'ml');
+			
+			combination();
+		});
+		
+		$( ".balance" ).change(function() {
+			// balance text
+		    $('.balance-text').html($(this).val() + 'ml');
+		    
+		    combination();
+		});
+		
+		$( ".ground-coffee" ).trigger("change");
+		$( ".balance" ).trigger("change");
+		
+		// combination recipes
+		function combination()
+		{
+			// a pour of water
+			var apow = parseInt($('.pour-of-water').html().replace(/\D/g,''));
+			var balance = parseInt($('.balance-text').html().replace(/\D/g,''));
+			
+			// more sweetness
+			var msb1 = ((apow-balance)*40)/(apow*2);
+			var msb2 = ((apow+balance)*40)/(apow*2);	
+			
+			// more acidity
+			var mab1 = ((apow+balance)*40)/(apow*2);
+			var mab2 = ((apow-balance)*40)/(apow*2);
+			
+			// more strength
+			var ms = (apow * 3) / 4;
+			
+			// less strength
+			var ls = (apow * 3) / 2;
+			
+			// basic | basic
+			$('.bb').html(apow + 'ml');
+			
+			// basic | higher
+			$('.bhb').html(apow + 'ml'); // balance
+			$('.bhs').html(ms + 'ml'); // strength
+			
+			// basic | lower
+			$('.blb').html(apow + 'ml'); // balance
+			$('.bls').html(ls + 'ml'); // strength	
+			
+			// more sweetness | basic
+			$('.msb1').html(apow-balance + 'ml'); // balance1
+			$('.msb1').css('width', msb1 + '%');
+			$('.msb2').html(apow+balance + 'ml'); // balance2
+			$('.msb2').css('width', msb2 + '%');
+			$('.msb').html(apow + 'ml');
+			
+			// more sweetness | higher
+			$('.msh1').html(apow-balance + 'ml'); // balance1
+			$('.msh1').css('width', msb1 + '%');
+			$('.msh2').html(apow+balance + 'ml'); // balance2
+			$('.msh2').css('width', msb2 + '%');
+			$('.msh').html(ms + 'ml');
+			
+			// more sweetness | lower
+			$('.msl1').html(apow-balance + 'ml'); // balance1
+			$('.msl1').css('width', msb1 + '%');
+			$('.msl2').html(apow+balance + 'ml'); // balance2
+			$('.msl2').css('width', msb2 + '%');
+			$('.msl').html(ls + 'ml');
+			
+			// more acidity | basic
+			$('.mab1').html(apow+balance + 'ml'); // balance1
+			$('.mab1').css('width', mab1 + '%');
+			$('.mab2').html(apow-balance + 'ml'); // balance2
+			$('.mab2').css('width', mab2 + '%');
+			$('.mab').html(apow + 'ml');
+			
+			// more acidity | higher
+			$('.mah1').html(apow+balance + 'ml'); // balance1
+			$('.mah1').css('width', mab1 + '%');
+			$('.mah2').html(apow-balance + 'ml'); // balance2
+			$('.mah2').css('width', mab2 + '%');
+			$('.mah').html(ms + 'ml');
+			
+			// more acidity | lower
+			$('.mal1').html(apow+balance + 'ml'); // balance1
+			$('.mal1').css('width', mab1 + '%');
+			$('.mal2').html(apow-balance + 'ml'); // balance2
+			$('.mal2').css('width', mab2 + '%');
+			$('.mal').html(ls + 'ml');
+		}
+		
+
+	});		
+</script>
+
+
+</body></html>
